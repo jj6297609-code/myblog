@@ -82,7 +82,12 @@ python manage.py runserver
 - 用户个人主页  
 - 编辑个人资料  
 
-（你可以补充几张截图）  
+<img width="1232" height="382" alt="image" src="https://github.com/user-attachments/assets/17ae9334-557f-4f1a-a5a5-afc2b7476699" />
+<img width="2366" height="1014" alt="屏幕截图 2025-09-14 185100" src="https://github.com/user-attachments/assets/44c64374-d561-4c4a-8a80-a8ef7a70d887" />
+<img width="2390" height="588" alt="屏幕截图 2025-09-14 185135" src="https://github.com/user-attachments/assets/251b20ea-47d8-49d7-8b41-dcb9fb9aceab" />
+<img width="2399" height="786" alt="屏幕截图 2025-09-14 185150" src="https://github.com/user-attachments/assets/bfde9caa-6bf3-46ce-b7f6-5cf4363a57eb" />
+
+
 
 ---
 
