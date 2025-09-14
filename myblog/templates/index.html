@@ -15,7 +15,11 @@
                     <div class="card-footer text-body-secondary d-flex justify-content-between">
                         <div>
                             <img src="{% static 'image/user.png' %}" alt="" height=30 class="rounded-circle">
-                            {{ blog.author.username }}
+                            <span class="ms-2">
+                                <a href="{% url 'blogauth:profile' user_id=blog.author.id %}">
+                                    {{ blog.author.username }}
+                                </a>
+                            </span>
                         </div>
                         <div>
                             发布时间：{{ blog.time|date:"Y年m月d日 H时i分" }}
