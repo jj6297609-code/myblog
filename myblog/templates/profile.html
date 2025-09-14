@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block title %}个人简介{% endblock %}
+{% block main %}
+<h2>{{ user.username }}</h2>
+<p><strong>简介：</strong> {{ profile.bio|default:"这个人很神秘，还没有写简介。" }}</p>
+<p><strong>所在地：</strong> {{ profile.location|default:"未填写" }}</p>
+<p><strong>网站：</strong>
+  {% if profile.website %}
+    <a href="{{ profile.website }}" target="_blank">{{ profile.website }}</a>
+  {% else %}
+    未填写
+  {% endif %}
+</p>
+{% if request.user.id == user.id %}
+        <a href="{% url 'blogauth:edit_profile' user.id %}" class="btn btn-primary mt-3">
+            编辑个人简介
+        </a>
+    {% endif %}
+{% endblock %}
