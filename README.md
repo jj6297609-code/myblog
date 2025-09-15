@@ -16,8 +16,8 @@
 ---
 
 ## 🛠 技术栈
-- **后端**：Django 4.x  
-- **数据库**：SQLite（可扩展为 MySQL/PostgreSQL）  
+- **后端**：Django 5.2.6  
+- **数据库**：SQLite  
 - **前端**：Bootstrap 5 + HTML + CSS + JavaScript  
 - **其他**：Django 模板引擎、静态文件管理、表单验证  
 
