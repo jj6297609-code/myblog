@@ -2,7 +2,7 @@ window.onload = function () {
     const {createEditor, createToolbar} = window.wangEditor
 
     const editorConfig = {
-        placeholder: 'Type here...',
+        placeholder: '输入...',
         onChange(editor) {
             const html = editor.getHtml()
             console.log('editor content', html)
